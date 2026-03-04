@@ -9,7 +9,7 @@ public class DBConnection {
             Connection conn = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/college_db",
                 "root",
-                "password"
+                "Amansls@123"
             );
             return conn;
         } catch (Exception e) {
